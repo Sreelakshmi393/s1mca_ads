@@ -138,7 +138,7 @@ void deletion(){
         int pos;
         printf("Enter the position : ");
         scanf("%d", &pos);
-        if(pos>size-1 || pos<11){
+        if(pos>size-1 || pos<1){
             printf("Invalid position");
             return;
         }
